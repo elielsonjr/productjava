@@ -26,7 +26,6 @@ class LerProdutos{
 		for (int i = 0; i < produtos.length; i++ ){
 
 			produtos [i] = new Produto ();
-
 			
 			System.out.println("Digite o codigo do produto " + i);
 				produtos[i].codigo = JUtil.readInt ();
